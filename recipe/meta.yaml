@@ -1,5 +1,5 @@
 {% set name = "sklearn-pandas" %}
-{% set version = "2.0.4" %}
+{% set version = "2.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sklearn-pandas-{{ version }}.tar.gz
-  sha256: f86c4afc18891ae565af8ee47b6cc84553c410436cbf670be25a199817187831
+  sha256: 4f1764fbaf349639d6cfe049c7742dd573659cb725ebce2a459c14f67ebd8976
 
 build:
   number: 0
