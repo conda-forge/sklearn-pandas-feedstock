@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sklearn-pandas-{{ version }}.tar.gz
-  sha256: f86c4afc18891ae565af8ee47b6cc84553c410436cbf670be25a199817187831
+  sha256: ae9b42b83cc0c4ccb0660135789291bb1355d9d990c008bcb506a0d2bde2b11d
 
 build:
   number: 0
