@@ -1,5 +1,5 @@
 {% set name = "sklearn-pandas" %}
-{% set version = "2.0.4" %}
+{% set version = "2.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sklearn-pandas-{{ version }}.tar.gz
-  sha256: f86c4afc18891ae565af8ee47b6cc84553c410436cbf670be25a199817187831
+  sha256: 4f1764fbaf349639d6cfe049c7742dd573659cb725ebce2a459c14f67ebd8976
 
 build:
   number: 0
@@ -18,13 +18,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
-    - numpy >=1.18.1
-    - pandas >=1.0.5
-    - python >=3.6
+    - python >=3.7
     - scikit-learn >=0.23.0
-    - scipy >=1.4.1
+    - scipy >=1.5.1
+    - pandas >=1.1.4
+    - numpy >=1.18.1
 
 test:
   imports:
@@ -43,3 +43,4 @@ about:
 extra:
   recipe-maintainers:
     - FernandezMathieu
+    - ragrawal

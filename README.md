@@ -115,4 +115,5 @@ Feedstock Maintainers
 =====================
 
 * [@FernandezMathieu](https://github.com/FernandezMathieu/)
+* [@ragrawal](https://github.com/ragrawal/)
 
